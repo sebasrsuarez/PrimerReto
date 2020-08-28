@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Primer reto</string>
+    <string name="texto_titulo">Menú Principal</string>
+    <string name="texto_boton1">PRESENTACIÓN DE EQUIPO</string>
+    <string name="texto_boton2">FORMULARIO</string>
+    <string name="texto_boton3">CALCULAR EDAD</string>
+    <string name="titulo_formulario">FORMULARIO</string>
+    <string name="titulo_calcular_edad">CALCULAR EDAD</string>
+    <string name="error_calcular_edad">Edad no valida favor intentar nuevamente</string>
+    <string name="mensaje_calcular_edad">Ingrese su fecha de nacimiento</string>
+    <string name="fecha_ano">Años: </string>
+    <string name="fecha_mes"> Meses: </string>
+    <string name="titulo_presentacion_equipo">PRESENTACIÓN DEL EQUIPO</string>
+    <string name="nombre_integrante1">Mario Andrés Pérez</string>
+    <string name="carrera_integrante1">Ing. Electrónica</string>
+    <string name="nombre_integrante2">Sebastian Ramírez</string>
+    <string name="carrera_integrante2">Ing. de Sistemas</string>
+    <string name="obligatorio">obligatorio</string>
+</resources>

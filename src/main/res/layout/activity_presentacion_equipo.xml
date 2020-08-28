@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PresentacionEquipo"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imagen_Mario"
+        android:layout_width="147dp"
+        android:layout_height="472dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagen_Sebas"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/screenshot_20200825_190745" />
+
+    <ImageView
+        android:id="@+id/imagen_Sebas"
+        android:layout_width="147dp"
+        android:layout_height="471dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_20200825_193357" />
+
+    <TextView
+        android:id="@+id/tituloPresentacionequipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/titulo_presentacion_equipo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre_Integrante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:text="@string/nombre_integrante1"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen_Mario"
+        app:layout_constraintEnd_toEndOf="@+id/imagen_Mario"
+        app:layout_constraintStart_toStartOf="@+id/imagen_Mario"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/carrera_Integrante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/carrera_integrante1"
+        app:layout_constraintEnd_toEndOf="@+id/imagen_Mario"
+        app:layout_constraintStart_toStartOf="@+id/imagen_Mario"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_Integrante1"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/nombre_Integrante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:text="@string/nombre_integrante2"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen_Sebas"
+        app:layout_constraintEnd_toEndOf="@+id/imagen_Sebas"
+        app:layout_constraintStart_toStartOf="@+id/imagen_Sebas" />
+
+    <TextView
+        android:id="@+id/carrera_Integrante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/carrera_integrante2"
+        app:layout_constraintEnd_toEndOf="@+id/imagen_Sebas"
+        app:layout_constraintStart_toStartOf="@+id/imagen_Sebas"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_Integrante2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
